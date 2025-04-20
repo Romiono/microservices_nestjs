@@ -1,0 +1,22 @@
+{
+  "name": "microservices_nestjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "generate:proto": "bash scripts/generate-proto.sh"
+  },
+  "devDependencies": {
+    "ts-proto": "^1.159.0",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "passport-esia": "^0.0.5"
+  }
+}
